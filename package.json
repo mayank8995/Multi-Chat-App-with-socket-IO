@@ -1,0 +1,26 @@
+{
+  "name": "multi-chat-app-with-socket-io",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayank8995/Multi-Chat-App-with-socket-IO.git"
+  },
+  "author": "mayank-gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayank8995/Multi-Chat-App-with-socket-IO/issues"
+  },
+  "homepage": "https://github.com/mayank8995/Multi-Chat-App-with-socket-IO#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "framer-motion": "^6.2.6",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
